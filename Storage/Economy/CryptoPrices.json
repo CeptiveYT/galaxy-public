@@ -1,0 +1,35 @@
+{
+    "bitcoin": {
+        "min": 10000,
+        "max": 40000
+    },
+    "etherium":  {
+        "min": 5000,
+        "max": 10000
+    },
+    "tether":  {
+        "min": 1500,
+        "max": 3500
+    },
+    "cadarno":  {
+        "min": 10,
+        "max": 100
+    },
+    "doge":  {
+        "min": 1,
+        "max": 10
+    },
+    "stream":  {
+        "min": 30000,
+        "max": 70000
+    },
+    "shiba":  {
+        "min": 5,
+        "max": 25
+    },
+    "litecoin": {
+        "min": 100,
+        "max": 900
+    },
+    "timeout": 60
+}

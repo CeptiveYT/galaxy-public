@@ -1,0 +1,60 @@
+{
+  "name": "stream-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeptiveYT/Stream-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeptiveYT/Stream-Bot/issues"
+  },
+  "homepage": "https://github.com/CeptiveYT/Stream-Bot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.0.1",
+    "@discordjs/voice": "^0.11.0",
+    "@distube/spotify": "^1.3.2",
+    "@distube/yt-dlp": "^1.1.3",
+    "@iamtraction/google-translate": "^1.1.2",
+    "ascii-table": "^0.0.9",
+    "axios": "^0.27.2",
+    "better-output": "^3.5.2",
+    "better-sqlite3": "^7.6.2",
+    "ceptive": "^1.0.1",
+    "chalk": "^5.0.1",
+    "colors": "^1.4.0",
+    "discord-giveaways": "^5.2.2",
+    "discord-html-transcripts": "^2.6.0",
+    "discord-modals": "^1.3.9",
+    "discord.js": "^13.9.0",
+    "distube": "^3.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ffmpeg-static": "^5.0.2",
+    "glob": "^8.0.3",
+    "kitsu.js": "^2.0.0",
+    "libsodium-wrappers": "^0.7.10",
+    "minecraft-player": "^1.0.1",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.0",
+    "ms": "^2.1.3",
+    "nodemon": "^2.0.19",
+    "reddit-fetch": "^1.5.1",
+    "sourcebin_js": "^0.0.3-ignore",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.11.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@embeds": "./Storage/Embeds/embeds.js",
+    "@schemas": "./Storage/Schemas"
+  }
+}
